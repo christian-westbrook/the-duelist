@@ -4,5 +4,10 @@ build:
 run:
 	python ./run.py
 
+clean:
+	rm ./*.so
+	rm ./src/*.c
+	rm -rf ./build/*
+
 lint:
 	pylint ./src/**/*.pyx
