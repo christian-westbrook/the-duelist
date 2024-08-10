@@ -1,0 +1,9 @@
+# Ignore the development environment
+# TODO: Think more about if this is necessary
+.vscode
+.venv
+
+# Ignore compiled artifacts
+*.c
+*.o
+*.so
