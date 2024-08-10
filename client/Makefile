@@ -3,3 +3,6 @@ build:
 
 run:
 	python ./run.py
+
+lint:
+	pylint ./src/**/*.pyx
