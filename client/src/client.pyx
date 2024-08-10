@@ -26,25 +26,38 @@ class Game:
         self.screen = self.construct_window(width, height)
         self.start()
 
-
     def construct_window(self, width, height):
         """
-        Method   : construct_window()
-        Engineer : Christian Westbrook
+        Method       : construct_window()
+        Engineer     : Christian Westbrook
 
-        Inputs   : width - An integer representing the width of the game client
-                           window in pixels
-                   height - An integer representing the height of the game
-                            client window in pixels
-        Outputs  : screen - A PyGame Surface object representing the screen on
-                            which we can draw game assets
+        Inputs       : width - An integer representing the width of the game client
+                               window in pixels
+                       height - An integer representing the height of the game
+                                client window in pixels
+        Outputs      : screen - A PyGame Surface object representing the screen on
+                                which we can draw game assets.
+        Side Effects : None
 
-        Abstract : This method accepts width and height integers 
+        Abstract     : This method accepts width and height integers and 
+                       returns a pygame Surface object representing the
+                       screen on which we can draw game assets.
+                 
         """
         screen = pygame.display.set_mode([width, height])
         return screen
-    
+
     def start(self):
+        """
+        Method       : start()
+        Engineer     : Christian Westbrook
+        Inputs       : None
+        Outputs      : None
+        Side Effects : Starts the main game loop procedurally
+        Abstract     : This method is responsible for starting the main game
+                       loop.
+        """
+
         self.running = True
 
         # Game loop
@@ -54,10 +67,10 @@ class Game:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     self.running = False
-                    
+
             # Draw
             self.screen.fill((0, 0, 0))
 
             pygame.display.flip()
-        
+
         pygame.quit()
