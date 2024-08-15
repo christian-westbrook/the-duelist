@@ -7,3 +7,10 @@
 *.c
 *.o
 *.so
+*.exe
+
+
+# Ignore external libraries for now
+client/lib/
+server/lib/
+*.dll
