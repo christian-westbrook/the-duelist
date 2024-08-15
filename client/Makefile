@@ -5,12 +5,10 @@ build:
 	-lmingw32 -lSDL2main -lSDL2
 	
 run:
-	python ./run.py
+	./game.exe
 
 clean:
-	rm ./*.so
-	rm ./src/*.c
-	rm -rf ./build/*
+	rm game.exe
 
 lint:
 	pylint ./src/**/*.pyx
