@@ -11,4 +11,4 @@ clean:
 	rm game.exe
 
 lint:
-	pylint ./src/**/*.pyx
+	cpplint ./src/game.cpp
