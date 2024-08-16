@@ -1,4 +1,6 @@
-# the-duelist
+# The Duelist
+
+[![style](https://github.com/christian-westbrook/the-duelist/actions/workflows/style.yml/badge.svg)](https://github.com/christian-westbrook/the-duelist/actions/workflows/style.yml)
 
 A deceptively simple game of high-stakes text-based dueling by Christian Westbrook
 
