@@ -22,8 +22,8 @@ This (soon to be) game is in active development. At any point you can follow alo
 
 # Roadmap
 
-- [ ] Client application with a game window
-- [ ] Keyboard event handling
+- [x] Client application with a game window
+- [x] Keyboard event handling
 - [ ] Game server that serves a world of textually navigable rooms
 - [ ] Situational text interface for clients
 - [ ] Session instancing
