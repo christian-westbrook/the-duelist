@@ -30,7 +30,9 @@ int main(int argc, char* args[])
         SDL_WINDOW_FLAGS
     );
 
-    SDL_Delay(3000);
+    // Create the SDL Renderer
+   SDL_Renderer *renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_FLAGS);
+
     
     // Quit SDL
     SDL_Quit();
