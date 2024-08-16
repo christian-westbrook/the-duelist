@@ -1,5 +1,8 @@
 // -----------------------------------------------------------------------------
 // Application : The Duelist
+// Copyright   : Copyright (c) 2024 Christian Westbrook
+// License     : https://github.com/christian-westbrook/the-duelist/blob/main/LICENSE
+//
 // Engineer    : Christian Westbrook
 // Abstract    : This source file contains the entry point for the The Duelist.
 // -----------------------------------------------------------------------------
