@@ -1,4 +1,7 @@
 // -----------------------------------------------------------------------------
+// Application : The Duelist
+// Engineer    : Christian Westbrook
+// Abstract    : This source file contains the entry point for the The Duelist.
 // -----------------------------------------------------------------------------
 
 
@@ -16,9 +19,10 @@
 
 int main(int argc, char* args[])
 {
-    // Start SDL
+    // Initialize SDL
     SDL_Init(SDL_INIT_EVERYTHING);
 
+    // Create the SDL Window
     SDL_Window *window = SDL_CreateWindow(
         GAME_TITLE, 
         WINDOW_POS_X, WINDOW_POS_Y, 
@@ -31,5 +35,5 @@ int main(int argc, char* args[])
     // Quit SDL
     SDL_Quit();
     
-    return 0;    
+    return 0;
 }
