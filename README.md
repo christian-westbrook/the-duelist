@@ -4,11 +4,47 @@
 
 A deceptively simple game of high-stakes text-based dueling by Christian Westbrook
 
-## Objective
+# Objective
 
-The goal of this project is to experiment with a networked and tick-based text game engine. I'll focus on a simple design that effectively tests the concept while achieving a bare minimum of aesthetic.
+The goal of this project is to experiment with a networked and tick-based textual game engine. Players will take on the role of a duelist that must navigate a dungeon environment to find and kill their adversary. Inspirations are [RuneScape Classic](https://rsc.vet/), the [Wilderness](https://classic.runescape.wiki/w/Wilderness), and the [dungeoneering skill](https://runescape.wiki/w/Dungeoneering) from [RuneScape 3](https://www.runescape.com/community).
 
-## Game Design
+# Table of Contents
+
+[Status](#status)
+[Roadmap][#Roadmap]
+[Installation](#installation)
+[Gameplay][#gameplay]
+[Design](#design)
+
+# Status
+
+This (soon to be) game is in active development. At any point you can follow along and play by downloading and running the latest release.
+
+# Roadmap
+
+- [ ] Client application with a game window
+- [ ] Keyboard event handling
+- [ ] Game server that serves a world of textually navigable rooms
+- [ ] Situational text interface for clients
+- [ ] Session instancing
+- [ ] Session chat
+- [ ] Combat system
+
+# Installation
+
+TODO
+
+# Gameplay
+
+The game currently consists of a blank window that will open and do absolutely nothing until you either press the `Esc` key or close the window. This demonstrates that we can:
+
+- [ ] Successfully build the game
+- [ ] Open a window
+- [ ] Handle keyboard input
+
+Check out the [roadmap](#roadmap) to learn more about what's coming up!
+
+# Design
 
 The player will take on the role of a participant of mutually agreed upon mortal combat. I don't know at the onset of the project why our characters are (seemingly) so willing to risk their lives, but I hope to discover this by the game's release. I plan to allow the narrative to reveal itself to me during development.
 
